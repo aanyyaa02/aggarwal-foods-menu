@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aggarwal Foods Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fff3e0, #ffe0b2);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #bf360c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .offer-banner {
+      background-color: #ffc107;
+      color: #000;
+      text-align: center;
+      font-weight: bold;
+      padding: 1rem;
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+    }
+
+    .menu-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .menu-item {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .menu-item:hover {
+      transform: scale(1.04);
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .menu-details {
+      padding: 1rem;
+    }
+
+    .menu-details h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.1rem;
+      color: #5d4037;
+    }
+
+    .price {
+      color: #d84315;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #bf360c;
+      color: white;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aggarwal Foods</h1>
+  </header>
+
+  <div class="offer-banner">
+    🎉 Get 20% OFF on all orders above ₹499 — Limited Time Offer! 🎉
+  </div>
+
+  <div class="menu-container">
+
+    <div class="menu-item">
+      <img src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_960_720.jpg" alt="Cheese Pizza">
+      <div class="menu-details">
+        <h3>Cheese Pizza</h3>
+        <p class="price">₹299</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_960_720.jpg" alt="Veg Burger">
+      <div class="menu-details">
+        <h3>Veg Burger</h3>
+        <p class="price">₹149</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\white-sauce-pasta-500x500.jpg" alt="White Sauce Pasta">
+      <div class="menu-details">
+        <h3>White Sauce Pasta</h3>
+        <p class="price">₹199</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\samosa.jpg" alt="Samosa">
+      <div class="menu-details">
+        <h3>Punjabi Samosa (2 pcs)</h3>
+        <p class="price">₹99</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\chole.jpg" alt="Chole Bhature">
+      <div class="menu-details">
+        <h3>Chole Bhature</h3>
+        <p class="price">₹129</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\Paneer_Tikka_5.jpg" alt="Paneer Tikka">
+      <div class="menu-details">
+        <h3>Paneer Tikka</h3>
+        <p class="price">₹250</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\hakka.jpeg" alt="Veg Hakka Noodles">
+      <div class="menu-details">
+        <h3>Veg Hakka Noodles</h3>
+        <p class="price">₹180</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="https://static.toiimg.com/thumb/53094926.cms?imgsize=186279&width=800&height=800" alt="Rajma Chawal">
+      <div class="menu-details">
+        <h3>Rajma Chawal</h3>
+        <p class="price">₹130</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\biryani.jpg" alt="Veg Biryani">
+      <div class="menu-details">
+        <h3>Veg Biryani</h3>
+        <p class="price">₹220</p>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="C:\Users\lenovo india\OneDrive\Desktop\menu\thaki.jpeg" alt="Deluxe Thali">
+      <div class="menu-details">
+        <h3>Deluxe Thali</h3>
+        <p class="price">₹500</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Aggarwal Foods — Serving Delicious Moments Daily!
+  </footer>
+
+</body>
+</html>
